@@ -1,0 +1,123 @@
+{
+  "questions": [
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "台灣的雲豹已經不存", "stylisticSet": 1, "font": "default" },
+        { "text": "在", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "了。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "遵守規則", "stylisticSet": 1, "font": "default" },
+        { "text": "在", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "比賽中非常重要。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "這個故事很好聽，請", "stylisticSet": 1, "font": "default" },
+        { "text": "再", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "講一次。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "這家餐廳", "stylisticSet": 1, "font": "default" },
+        { "text": "在", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "捷運站旁，交通很方便。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "環保的成功", "stylisticSet": 1, "font": "default" },
+        { "text": "在", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "於大家的努力。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "放學後，我們", "stylisticSet": 1, "font": "default" },
+        { "text": "再", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "去公園玩吧！", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "老師把字寫", "stylisticSet": 1, "font": "default" },
+        { "text": "在", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "黑板上。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "再", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "不快點起床，就要遲到了！。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "老師", "stylisticSet": 1, "font": "default" },
+        { "text": "再", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "見，大家明天見。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "環保團體希望垃圾分類能做得", "stylisticSet": 1, "font": "default" },
+        { "text": "再", "stylisticSet": 2, "font": "bpmfBox" },
+        { "text": "好一些。", "stylisticSet": 1, "font": "default" }
+      ],
+      "options": [
+        { "text": "在", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "再", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true }
+      ]
+    }
+  ]
+}
