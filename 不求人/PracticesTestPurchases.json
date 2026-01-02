@@ -27,12 +27,12 @@
           "question": {
             "id": "國語不求人_114一上不分版本注音期中考_分享版",
             "path": "國語不求人_114上/國語不求人_114一上不分版本注音期中考_分享版.pdf",
-            "locked": true
+            "locked": false
           },
           "answer": {
             "id": "",
             "path": "",
-            "locked": true
+            "locked": false
           }
         },
         {
@@ -41,12 +41,12 @@
           "question": {
             "id": "國語不求人_114二上康版期中考_分享版",
             "path": "國語不求人_114上/國語不求人_114二上康版期中考_分享版.pdf",
-            "locked": true
+            "locked": false
           },
           "answer": {
             "id": "",
             "path": "",
-            "locked": true
+            "locked": false
           }
         },
         {
@@ -55,12 +55,12 @@
           "question": {
             "id": "國語不求人_114三上康版期中考_分享版",
             "path": "國語不求人_114上/國語不求人_114三上康版期中考_分享版",
-            "locked": true
+            "locked": false
           },
           "answer": {
             "id": "",
             "path": "",
-            "locked": true
+            "locked": false
           }
         },
         {
@@ -69,12 +69,12 @@
           "question": {
             "id": "國語不求人_114三上翰版期中考_分享版",
             "path": "國語不求人_114上/國語不求人_114三上翰版期中考_分享版.pdf",
-            "locked": true
+            "locked": false
           },
           "answer": {
             "id": "",
             "path": "",
-            "locked": true
+            "locked": false
           }
         }
       ]
