@@ -27,20 +27,6 @@
           }
         },
         {
-          "title": "故事ㄅㄆㄇ",
-          "mode" : "NameOnly",
-          "question": {
-            "id": "注音ㄅ_ㄌ",
-            "path": "注音/注音符號_故事ㄅㄆㄇ.pdf",
-            "locked": false
-          },
-          "answer": {
-            "id": "",
-            "path": "",
-            "locked": false
-          }
-        },
-        {
           "title": "ㄅ ~ ㄌ",
           "mode" : "NameOnly",
           "question": {
