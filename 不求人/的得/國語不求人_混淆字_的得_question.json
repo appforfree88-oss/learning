@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "他跑步跑", "stylisticSet": 0, "font": "default" },
+        { "text": "得", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "滿頭大汗。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "昨天我買", "stylisticSet": 0, "font": "default" },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfBox" },
+        { "text": "玩具很好玩。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "妹妹唱歌", "stylisticSet": 0, "font": "default" },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfBox" },
+        { "text": "聲音很甜美。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "經過努力，小玉考", "stylisticSet": 0, "font": "default" },
+        { "text": "得", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "很高分。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "這棵樹長", "stylisticSet": 0, "font": "default" },
+        { "text": "得", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "又高又直。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "那個穿紅衣服", "stylisticSet": 0, "font": "default" },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfBox" },
+        { "text": "女孩是我同學。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "這本書是你找到", "stylisticSet": 0, "font": "default" },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfBox" },
+        { "text": "嗎？", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "小鳥飛", "stylisticSet": 0, "font": "default" },
+        { "text": "得", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "好快，一下子就不見了。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "他畫", "stylisticSet": 0, "font": "default" },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfBox" },
+        { "text": "畫非常生動。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "爸爸做了一份香噴噴", "stylisticSet": 0, "font": "default" },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfBox" },
+        { "text": "炒飯。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "得", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": false },
+        { "text": "的", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": true }
+      ]
+    }
+  ]
+}
