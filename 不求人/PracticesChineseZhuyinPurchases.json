@@ -244,7 +244,7 @@
         "title": "辨識小秘訣",
         "filePath": "在再/國語不求人_混淆字_在再_1說明.pdf",
         "testFilePath": "在再/國語不求人_混淆字_在再_question.json",
-        "txtFilePath": "在再/國語不求人_混淆字_在再_1.說明.html"
+        "txtFilePath": "在再/國語不求人_混淆字_在再_1_說明.html"
       },
       "papers": [
         {
@@ -295,7 +295,7 @@
         "title": "辨識小秘訣",
         "filePath": "的得/國語不求人_混淆字_的得_1說明.pdf",
         "testFilePath": "的得/國語不求人_混淆字_的得_question.json",
-        "txtFilePath": "的得/國語不求人_混淆字_的得_1.說明.html"
+        "txtFilePath": "的得/國語不求人_混淆字_的得_1_說明.html"
       },
       "papers": [
         {
@@ -346,7 +346,7 @@
         "title": "辨識小秘訣",
         "filePath": "做作/國語不求人_混淆字_做作_1說明.pdf",
         "testFilePath": "做作/國語不求人_混淆字_做作_測驗.json",
-        "txtFilePath": "做作/國語不求人_混淆字_做作_1.說明.html"
+        "txtFilePath": "做作/國語不求人_混淆字_做作_1_說明.html"
       },
       "papers": [
         {
