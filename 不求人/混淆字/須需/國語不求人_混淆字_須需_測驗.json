@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "我", "stylisticSet": 0, "font": "default" },
+        { "text": "須", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "要接受醫生的治療。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "需", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false },
+        { "text": "須", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "我", "stylisticSet": 0, "font": "default" },
+        { "text": "需", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "要醫生的治療。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "需", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "須", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "媽媽要我在七點前必", "stylisticSet": 0, "font": "default" },
+        { "text": "須", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "回家。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "須", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "需", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "蔬果", "stylisticSet": 0, "font": "default" },
+        { "text": "需", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "要肥料才能長得好。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "需", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "須", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "手機已經成為人類的生活必", "stylisticSet": 0, "font": "default" },
+        { "text": "需", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "品。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "需", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "須", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "你", "stylisticSet": 0, "font": "default" },
+        { "text": "須", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "努力跟上學習進度。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "須", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "需", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "請仔細閱讀這張入館", "stylisticSet": 0, "font": "default" },
+        { "text": "須", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "知。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "須", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "需", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "這道料理", "stylisticSet": 0, "font": "default" },
+        { "text": "須", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "趁熱吃。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "須", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "需", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "她現在體溫燒得急", "stylisticSet": 0, "font": "default" },
+        { "text": "需", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "降溫。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "需", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "須", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "請選出正確的國字：",
+      "question": [
+        { "text": "你想畫畫，就", "stylisticSet": 0, "font": "default" },
+        { "text": "需", "stylisticSet": 1, "font": "bpmfBox" },
+        { "text": "準備顏料和筆。", "stylisticSet": 0, "font": "default" }
+      ],
+      "options": [
+        { "text": "需", "stylisticSet": 1, "font": "bpmfWith", "isCorrect": true },
+        { "text": "須", "stylisticSet": 0, "font": "bpmfWith", "isCorrect": false }
+      ]
+    }
+  ]
+}
