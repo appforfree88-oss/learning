@@ -12,8 +12,10 @@
       "instructionPaper": {
         "title": {
           "zh-TW": "",
+          "zh-CN": "",
           "en": "",
-          "ja": "答の説明"
+          "ja": "",
+          "ko": ""
         },
         "filePath": "",
         "testFilePath": "",
@@ -26,7 +28,8 @@
             "zh-TW": "10加法",
             "zh-CN": "",
             "en": "",
-            "ja": ""
+            "ja": "",
+            "ko": ""
           },
           "question": {
             "id": "10加法題目",
@@ -45,7 +48,8 @@
             "zh-TW": "10減法",
             "zh-CN": "",
             "en": "",
-            "ja": ""
+            "ja": "",
+            "ko": ""
           },
           "question": {
             "id": "10減法題目",
@@ -57,7 +61,67 @@
             "path": "計算流暢度/計算流暢度_10減法_解答_102.pdf",
             "locked": true
           }
+        },
+        {
+          "mode": "default",
+          "title": {
+            "zh-TW": "百格計算加法",
+            "zh-CN": "",
+            "en": "",
+            "ja": "",
+            "ko": ""
+          },
+          "question": {
+            "id": "百格計算加法題目",
+            "path": "計算流暢度/計算流暢度_百格計算加法_題目_104.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "百格計算加法解答",
+            "path": "計算流暢度/計算流暢度_百格計算加法_解答_104.pdf",
+            "locked": true
+          }
+        },
+        {
+          "mode": "default",
+          "title": {
+            "zh-TW": "百格計算減法",
+            "zh-CN": "",
+            "en": "",
+            "ja": "",
+            "ko": ""
+          },
+          "question": {
+            "id": "百格計算減法題目",
+            "path": "計算流暢度/計算流暢度_百格計算減法_題目_105.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "百格計算減法解答",
+            "path": "計算流暢度/計算流暢度_百格計算減法_解答_105.pdf",
+            "locked": true
+          }
+        },
+        {
+          "mode": "default",
+          "title": {
+            "zh-TW": "百格計算乘法",
+            "zh-CN": "",
+            "en": "",
+            "ja": ""
+          },
+          "question": {
+            "id": "百格計算乘法題目",
+            "path": "計算流暢度/計算流暢度_百格計算乘法_題目_106.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "百格計算乘法解答",
+            "path": "計算流暢度/計算流暢度_百格計算乘法_解答_106.pdf",
+            "locked": true
+          }
         }
+        
       ]
     }
   ]
