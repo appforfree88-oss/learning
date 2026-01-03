@@ -1,0 +1,62 @@
+{
+  "practices": [
+    {
+      "title": {
+        "zh-TW": "一次函數練習",
+        "zh-CN": "一次函数练习",
+        "en": "Linear Function Practice",
+        "ja": "一次関数の練習",
+        "ko": "일차 함수 연습"
+      },
+      "description": "適用於國中一年級",
+      "instructionPaper": {
+        "title": {
+          "zh-TW": "作答說明",
+          "en": "Instructions",
+          "ja": "解答の説明"
+        },
+        "filePath": "instructions/main.pdf",
+        "testFilePath": "instructions/test.pdf",
+        "txtFilePath": "instructions/readme.txt"
+      },
+      "papers": [
+        {
+          "mode": "exam",
+          "title": {
+            "zh-TW": "基本題",
+            "zh-CN": "基础题",
+            "en": "Basic Questions",
+            "ja": "基本問題"
+          },
+          "question": {
+            "id": "Q1",
+            "path": "questions/q1.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "A1",
+            "path": "answers/a1.pdf",
+            "locked": true
+          }
+        },
+        {
+          "mode": "exam",
+          "title": {
+            "zh-TW": "進階題",
+            "en": "Advanced Questions"
+          },
+          "question": {
+            "id": "Q2",
+            "path": "questions/q2.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "A2",
+            "path": "answers/a2.pdf",
+            "locked": true
+          }
+        }
+      ]
+    }
+  ]
+}
