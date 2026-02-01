@@ -1,0 +1,428 @@
+{
+  "practices": [
+    {
+      "title": "不定時更新",
+      "description": "",
+      "instructionPaper": {
+        "title": "",
+        "filePath": "",
+        "testFilePath": "",
+        "txtFilePath": ""
+      },
+      "papers": []
+    },
+    {
+    
+      "title": "注音練習",
+      
+      "description": "",
+      "instructionPaper": {
+        "title": "",
+        "filePath": "",
+        "testFilePath": "",
+        "txtFilePath": ""
+      },
+      "papers": [
+        {
+          "title": "故事ㄅㄆㄇ 小一新生上學去",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄅ_ㄌ",
+            "path": "注音/故事ㄅㄆㄇ_小一新生上學去.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "ㄅ ~ ㄌ",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄅ_ㄌ",
+            "path": "注音/注音符號練習單1.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "ㄍ ~ ㄔ",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄍ_ㄔ",
+            "path": "注音/注音符號練習單2.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "ㄕ ~ ㄩ",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄕ_ㄩ",
+            "path": "注音/注音符號練習單3.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "ㄚ ~ ㄡ",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄚ_ㄡ",
+            "path": "注音/注音符號練習單4.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "ㄢ ~ ㄦ",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄢ_ㄦ",
+            "path": "注音/注音符號練習單5.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "結合韻練習1",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄢ_ㄦ",
+            "path": "注音/注音符號結合韻練習單101.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "結合韻練習2",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄢ_ㄦ",
+            "path": "注音/注音符號結合韻練習單201.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "結合韻練習3",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "注音ㄢ_ㄦ",
+            "path": "注音/注音符號結合韻練習單301.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        }
+      ]
+    },
+    {
+     "title": "運筆練習",
+      
+      "description": "",
+      "instructionPaper": {
+        "title": "",
+        "filePath": "",
+        "testFilePath": "",
+        "txtFilePath": ""
+      },
+      "papers": [
+        {
+          "title": "運筆練習 1",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "運筆練習單1",
+            "path": "運筆/運筆練習單1.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "運筆練習 2",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "運筆練習單2",
+            "path": "運筆/運筆練習單2.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "運筆練習 3",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "運筆練習單3",
+            "path": "運筆/運筆練習單3.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "運筆練習 4",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "運筆練習單4",
+            "path": "運筆/運筆練習單4.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        },
+        {
+          "title": "運筆練習 5",
+          "mode" : "NameOnly",
+          "question": {
+            "id": "運筆練習單5",
+            "path": "運筆/運筆練習單5.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "",
+            "path": "",
+            "locked": false
+          }
+        }
+      ]
+    },
+    {
+      "title": "在、再",
+      "description": "",
+      "instructionPaper": {
+        "title": "辨識小秘訣",
+        "filePath": "在再/國語不求人_混淆字_在再_1說明.pdf",
+        "testFilePath": "在再/國語不求人_混淆字_在再_question.json",
+        "txtFilePath": "在再/國語不求人_混淆字_在再_1_說明.txt"
+      },
+      "papers": [
+        {
+          "title": "小試身手",
+          "question": {
+            "id": "國語不求人_混淆字_在再_2小試身手_題目",
+            "path": "在再/國語不求人_混淆字_在再_2小試身手_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "國語不求人_混淆字_在再_2小試身手_解答",
+            "path": "在再/國語不求人_混淆字_在再_2小試身手_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "句子式",
+          "question": {
+            "id": "在再/國語不求人_混淆字_在再_3句子式_題目.",
+            "path": "在再/國語不求人_混淆字_在再_3句子式_題目.pdf",
+            "locked": true
+          },
+          "answer": {
+            "id": "在再/國語不求人_混淆字_在再_3句子式_解答",
+            "path": "在再/國語不求人_混淆字_在再_3句子式_解答.pdf",
+            "locked": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "的、得",
+      "description": "國語不求人_混淆字_的得_0.說明.txt",
+      "instructionPaper": {
+        "title": "辨識小秘訣",
+        "filePath": "的得/國語不求人_混淆字_的得_1說明.pdf",
+        "testFilePath": "的得/國語不求人_混淆字_的得_question.json",
+        "txtFilePath": "的得/國語不求人_混淆字_的得_1_說明.txt"
+      },
+      "papers": [
+        {
+          "title": "小試身手",
+          "question": {
+            "id": "的得/國語不求人_混淆字_的得_2小試身手_題目",
+            "path": "的得/國語不求人_混淆字_的得_2小試身手_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "的得/國語不求人_混淆字_的得_2小試身手_解答",
+            "path": "的得/國語不求人_混淆字_的得_2小試身手_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "句子式",
+          "question": {
+            "id": "的得/國語不求人_混淆字_的得_3句子式練習_題目",
+            "path": "的得/國語不求人_混淆字_的得_3句子式練習_題目.pdf",
+            "locked": true
+          },
+          "answer": {
+            "id": "的得/國語不求人_混淆字_的得_3句子式練習_解答",
+            "path": "的得/國語不求人_混淆字_的得_3句子式練習_解答.pdf",
+            "locked": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "做、作",
+      "description": "國語不求人_混淆字_的得_0.說明.txt",
+      "instructionPaper": {
+        "title": "辨識小秘訣",
+        "filePath": "做作/國語不求人_混淆字_做作_1說明.pdf",
+        "testFilePath": "做作/國語不求人_混淆字_做作_測驗.json",
+        "txtFilePath": "做作/國語不求人_混淆字_做作_1_說明.txt"
+      },
+      "papers": [
+        {
+          "title": "小試身手",
+          "question": {
+            "id": "做作/國語不求人_混淆字_做作_2小試身手_題目",
+            "path": "做作/國語不求人_混淆字_做作_2小試身手_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "做作/國語不求人_混淆字_做作_2小試身手_解答",
+            "path": "做作/國語不求人_混淆字_做作_2小試身手_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "句子式",
+          "question": {
+            "id": "做作/國語不求人_混淆字_做作_3句子式_題目",
+            "path": "做作/國語不求人_混淆字_做作_3句子式_題目.pdf",
+            "locked": true
+          },
+          "answer": {
+            "id": "做作/國語不求人_混淆字_做作_3句子式_解答",
+            "path": "做作/國語不求人_混淆字_做作_3句子式_解答.pdf",
+            "locked": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "須、需",
+      "description": "國語不求人_混淆字_的得_0.說明.txt",
+      "instructionPaper": {
+        "title": "辨識小秘訣",
+        "filePath": "混淆字/須需/國語不求人_混淆字_須需_1說明.pdf",
+        "testFilePath": "混淆字/須需/國語不求人_混淆字_須需_測驗.json",
+        "txtFilePath": "混淆字/須需/國語不求人_混淆字_須需_1_說明.txt"
+      },
+      "papers": [
+        {
+          "title": "小試身手",
+          "question": {
+            "id": "混淆字/須需/國語不求人_混淆字_須需_2小試身手_題目",
+            "path": "混淆字/須需/國語不求人_混淆字_須需_2小試身手_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "混淆字/須需/國語不求人_混淆字_須需_2小試身手_解答",
+            "path": "混淆字/須需/國語不求人_混淆字_須需_2小試身手_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "句子式",
+          "question": {
+            "id": "混淆字/須需/國語不求人_混淆字_須需_3句子式_題目",
+            "path": "混淆字/須需/國語不求人_混淆字_須需_3句子式_題目.pdf",
+            "locked": true
+          },
+          "answer": {
+            "id": "混淆字/須需/國語不求人_混淆字_須需_3句子式_解答",
+            "path": "混淆字/須需/國語不求人_混淆字_須需_3句子式_解答.pdf",
+            "locked": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "一、不",
+      "description": "國語不求人_混淆字_的得_0.說明.txt",
+      "instructionPaper": {
+        "title": "",
+        "filePath": "",
+        "testFilePath": "",
+        "txtFilePath": ""
+      },
+      "papers": [
+        {
+          "title": "低年級 題目",
+          "question": {
+            "id": "一不/一不練習單_低年級_題目",
+            "path": "一不/一不練習單_低年級_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "一不/一不練習單_低年級_解答",
+            "path": "一不/一不練習單_低年級_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "中高年級 題目1",
+          "question": {
+            "id": "一不/一不練習單_中高年級_題目1",
+            "path": "一不/一不練習單_中高年級_題目1.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "一不/一不練習單_中高年級_解答1",
+            "path": "一不/一不練習單_中高年級_解答1.pdf",
+            "locked": false
+          }
+        }
+      ]
+    }
+  ]
+}
