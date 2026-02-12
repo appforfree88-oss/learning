@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊記寫作一點通</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #FDFBF7;
+            color: #444;
+            transition: all 0.3s ease;
+        }
+
+        .serif { font-family: 'Noto Serif TC', serif; }
+
+        .grade-btn.active {
+            background-color: #D4A373;
+            color: white;
+            box-shadow: 0 4px 10px rgba(212, 163, 115, 0.4);
+        }
+
+        .scene-btn.active {
+            background-color: #4A3728;
+            color: white;
+            border-color: #4A3728;
+        }
+
+        .sub-btn.active {
+            background-color: #D4A373;
+            color: white;
+            border-color: #D4A373;
+        }
+
+        .fade-in { animation: fadeIn 0.5s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .text-heavy {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        .text-content-large {
+            font-size: 1.15rem;
+        }
+        .magic-highlight {
+            color: #D4A373;
+            font-weight: 800;
+        }
+        .lab-section-title {
+            border-left: 5px solid #D4A373;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #4A3728;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-[#D4A373]/20">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[#D4A373] rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-inner">Pro+</div>
+                <h1 class="text-2xl font-bold text-[#4A3728] serif">遊記寫作一點通</h1>
+            </div>
+            
+            <nav id="grade-selector" class="flex bg-gray-100 p-1 rounded-xl">
+                <button onclick="updateGrade('low')" id="btn-low" class="grade-btn px-6 py-2 rounded-lg text-sm font-bold transition-all">1~3年級版</button>
+                <button onclick="updateGrade('mid')" id="btn-mid" class="grade-btn px-6 py-2 rounded-lg text-sm font-bold transition-all">4~6年級版</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <section class="mb-12 border-b pb-8 border-dashed">
+            <div class="fade-in max-w-3xl">
+                <h2 id="view-title" class="text-3xl font-bold text-[#D4A373] serif mb-4">寫作教材資料庫載入中...</h2>
+                <div id="mantra-display" class="mt-6 flex flex-wrap gap-2"></div>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h3 class="text-lg font-bold text-gray-700 serif mb-4 flex items-center gap-2 text-heavy">🚩 選擇遊記類型</h3>
+            <div id="scene-selector" class="flex flex-wrap gap-2">
+                <button onclick="handleSceneChange('nature')" id="scene-nature" class="scene-btn border border-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-all">🌿 自然景點</button>
+                <button onclick="handleSceneChange('activity')" id="scene-activity" class="scene-btn border border-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-all">🎢 體驗活動</button>
+                <button onclick="handleSceneChange('food')" id="scene-food" class="scene-btn border border-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-all">🍜 美食地點</button>
+                <button onclick="handleSceneChange('city')" id="scene-city" class="scene-btn border border-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-all">🏙️ 城市地標</button>
+                <button onclick="handleSceneChange('history')" id="scene-history" class="scene-btn border border-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-all">🏺 人文歷史</button>
+            </div>
+        </section>
+
+        <section class="mb-8 p-6 bg-white rounded-2xl border border-[#D4A373]/20 shadow-sm fade-in">
+            <h3 class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-4">📍 選擇具體地點</h3>
+            <div id="sub-scene-selector" class="flex flex-wrap gap-2"></div>
+        </section>
+
+        <section class="mb-12 grid grid-cols-1 lg:grid-cols-3 gap-8 border-t pt-8">
+            <div class="lg:col-span-2 space-y-12">
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold text-gray-800 serif mb-6 flex items-center gap-2 text-heavy">
+                        <span class="w-2 h-8 bg-[#D4A373] rounded-full"></span>
+                        魔法升級實驗室
+                    </h3>
+                    <div id="lab-content" class="space-y-10"></div>
+                </div>
+
+                <div id="reduplicatives-section" class="fade-in hidden">
+                    <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-800 serif mb-6 flex items-center gap-2 text-heavy">
+                            <span class="w-2 h-8 bg-[#60A5FA] rounded-full"></span>
+                            ☁️ 疊字技巧 (豐富畫面感)
+                        </h3>
+                        <div id="reduplicatives-content" class="flex flex-wrap gap-3"></div>
+                    </div>
+                </div>
+
+                <div id="vocab-section" class="fade-in">
+                    <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-800 serif mb-6 flex items-center gap-2 text-heavy">
+                            <span class="w-2 h-8 bg-[#D4A373] rounded-full"></span>
+                            💎 優美詞語加分包
+                        </h3>
+                        <div id="vocab-grid" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-[#FAEDCD] p-8 rounded-3xl shadow-sm h-fit sticky top-28">
+                <h3 class="text-xl font-bold text-[#4A3728] serif mb-6 flex items-center gap-2 text-heavy">
+                    <span>💡</span> 魔法一點通
+                </h3>
+                <div id="pro-tips" class="space-y-6 text-sm text-[#5D4037]"></div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let writingMaterials = { low: null, mid: null };
+        let state = { grade: 'low', scene: 'nature', sub: '' };
+
+        // 初始化應用程式，從外部 JSON 檔案讀取
+        async function initApp() {
+            try {
+                // 分別讀取 1to3.json 與 4to6.json
+                const [lowRes, midRes] = await Promise.all([
+                    fetch('1to3.json'),
+                    fetch('4to6.json')
+                ]);
+
+                if (lowRes.ok) writingMaterials.low = await lowRes.json();
+                if (midRes.ok) writingMaterials.mid = await midRes.json();
+
+                // 設定初始預設值
+                setDefaultSub();
+                renderApp();
+            } catch (err) {
+                console.error("資料讀取失敗:", err);
+                document.getElementById('view-title').innerText = "❌ 檔案讀取錯誤";
+                document.getElementById('lab-content').innerHTML = `
+                    <div class="p-8 bg-red-50 text-red-700 rounded-2xl">
+                        請確保 <b>1to3.json</b> 與 <b>4to6.json</b> 檔案存在且格式正確。<br>
+                        (提示：本地開發需使用 Live Server 啟動 HTML)
+                    </div>`;
+            }
+        }
+
+        function setDefaultSub() {
+            const gradeData = writingMaterials[state.grade];
+            if (gradeData && gradeData.scenes[state.scene]) {
+                const subs = Object.keys(gradeData.scenes[state.scene].subLabs);
+                state.sub = subs[0] || "";
+            }
+        }
+
+        function updateGrade(gradeKey) {
+            state.grade = gradeKey;
+            setDefaultSub();
+            renderApp();
+        }
+
+        function updateState(newParams) {
+            state = { ...state, ...newParams };
+            renderApp();
+        }
+
+        function handleSceneChange(sceneKey) {
+            state.scene = sceneKey;
+            setDefaultSub();
+            renderApp();
+        }
+
+        function renderApp() {
+            const gradeInfo = writingMaterials[state.grade];
+            if (!gradeInfo) return;
+
+            const sceneInfo = gradeInfo.scenes[state.scene] || { subLabs: {} };
+            const subLab = sceneInfo.subLabs?.[state.sub] || { tips: [], vocab: [], reduplicatives: [] };
+            
+            // UI 按鈕狀態
+            document.getElementById('btn-low').classList.toggle('active', state.grade === 'low');
+            document.getElementById('btn-mid').classList.toggle('active', state.grade === 'mid');
+            
+            const categories = ["nature", "activity", "food", "city", "history"];
+            categories.forEach(cat => {
+                const btn = document.getElementById('scene-' + cat);
+                if (btn) btn.classList.toggle('active', state.scene === cat);
+            });
+
+            // 地點按鈕
+            let currentSubs = Object.keys(sceneInfo.subLabs || {});
+            document.getElementById('sub-scene-selector').innerHTML = currentSubs.map(s => 
+                `<button onclick="updateState({sub: '${s}'})" class="sub-btn border border-gray-200 px-4 py-1 rounded-lg text-xs font-bold transition-all ${state.sub === s ? 'active' : 'bg-gray-50 text-gray-500'}">${s}</button>`
+            ).join('');
+
+            document.getElementById('view-title').innerText = `${gradeInfo.name} - ${state.sub || "請選擇地點"}`;
+            document.getElementById('mantra-display').innerHTML = (gradeInfo.mantra || []).map(m => 
+                `<span class="bg-[#D4A373]/10 text-[#D4A373] border border-[#D4A373]/30 px-3 py-1 rounded-full text-xs font-bold">👉 ${m}</span>`
+            ).join('');
+
+            const formatSentence = (s) => s ? s.replace(/\*\*(.*?)\*\*/g, '<b class="magic-highlight">$1</b>') : '';
+
+            let labHtml = '';
+            if (!state.sub) {
+                labHtml = `<div class="text-center py-20 text-gray-400 font-bold text-heavy">目前此分類尚無資料。</div>`;
+            } else if (state.grade === 'low') {
+                labHtml = `
+                    <div class="fade-in space-y-10">
+                        <div>
+                            <div class="lab-section-title text-heavy">🕒 時地引導</div>
+                            <div class="space-y-3">
+                                ${(subLab.timeAndPlace?.sentences ?? []).map(s => `<div class="bg-blue-50/50 p-4 rounded-xl text-content-large text-[#1A365D] border-l-4 border-blue-400 font-medium">✏️ ${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="lab-section-title text-heavy">📝 看見什麼</div>
+                            <div class="space-y-3">
+                                ${(subLab.desc1?.sentences ?? []).map(s => `<div class="bg-emerald-50/50 p-4 rounded-xl text-content-large text-[#065F46] border-l-4 border-emerald-400 font-medium">✏️ ${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="lab-section-title text-heavy">📝 做了什麼</div>
+                            <div class="space-y-3">
+                                ${(subLab.desc2?.sentences ?? []).map(s => `<div class="bg-orange-50/50 p-4 rounded-xl text-content-large text-[#9A3412] border-l-4 border-orange-400 font-medium">✏️ ${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="lab-section-title text-heavy">📝 感想</div>
+                            <div class="space-y-3">
+                                ${(subLab.desc3?.sentences ?? []).map(s => `<div class="bg-rose-50/50 p-4 rounded-xl text-content-large text-[#9F1239] border-l-4 border-rose-400 font-medium">✏️ ${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                    </div>`;
+            } else if (state.grade === 'mid') {
+                labHtml = `
+                    <div class="fade-in space-y-12">
+                        <div>
+                            <div class="lab-section-title text-heavy">🚀 步驟一：心情的起點</div>
+                            <div class="space-y-3">
+                                ${(subLab.start ?? []).map(s => `<div class="bg-orange-50/50 p-4 rounded-xl text-content-large text-[#4A3728] border-l-4 border-orange-400 font-medium">✏️ ${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="lab-section-title text-heavy">🎬 步驟二：深度細描 (推移法)</div>
+                            <div class="space-y-3">
+                                ${(subLab.detail ?? []).map((s, idx) => `
+                                    <div class="bg-white border-2 border-[#D4A373]/30 p-5 rounded-2xl shadow-sm text-content-large text-[#4A3728] leading-relaxed font-medium">
+                                        <span class="magic-highlight text-lg mr-2">${idx % 2 === 0 ? '🔍 遠→近' : '🔭 近→遠'}</span>${formatSentence(s)}
+                                    </div>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="lab-section-title text-heavy">✨ 步驟三：精彩時刻 (互動與變化)</div>
+                            <div class="space-y-3">
+                                ${(subLab.moments?.sentences ?? []).map(s => `<div class="bg-[#FAEDCD] border-2 border-[#D4A373]/50 p-6 rounded-3xl shadow-sm text-content-large text-[#4A3728] leading-relaxed font-bold italic"><span class="magic-highlight text-2xl mr-2">🌟</span>${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="lab-section-title text-heavy">💡 步驟四：餘韻與收穫</div>
+                            <div class="space-y-3">
+                                ${(subLab.reflection?.sentences ?? []).map(s => `<div class="bg-blue-50/40 border-2 border-blue-200 p-6 rounded-3xl shadow-sm text-content-large text-[#1A365D] leading-relaxed font-bold"><span class="magic-highlight text-2xl mr-2">💎</span>${formatSentence(s)}</div>`).join('')}
+                            </div>
+                        </div>
+                    </div>`;
+            }
+            document.getElementById('lab-content').innerHTML = labHtml;
+
+            // 疊字與詞彙
+            const redupBox = document.getElementById('reduplicatives-section');
+            const reduplicatives = subLab.reduplicatives ?? [];
+            if (reduplicatives.length > 0) {
+                redupBox.classList.remove('hidden');
+                document.getElementById('reduplicatives-content').innerHTML = reduplicatives.map(r => `<span class="bg-blue-50 border-2 border-blue-100 px-4 py-2 rounded-xl text-content-large text-blue-700 font-bold shadow-sm transition-colors">${r}</span>`).join('');
+            } else { redupBox.classList.add('hidden'); }
+
+            const vocabGrid = document.getElementById('vocab-grid');
+            vocabGrid.innerHTML = (subLab.vocab ?? []).map(v => `<div class="bg-white p-4 rounded-2xl border border-gray-100 text-center shadow-sm hover:shadow-md transition-all cursor-default fade-in"><span class="font-bold text-gray-700 text-sm">${v}</span></div>`).join('');
+
+            const tipsBox = document.getElementById('pro-tips');
+            tipsBox.innerHTML = (subLab.tips ?? []).map(t => `<div class="group"><h5 class="font-bold text-[#4A3728] mb-1 flex items-center gap-2 text-base"><span class="w-1.5 h-1.5 bg-[#D4A373] rounded-full"></span>${t.title}</h5><p class="text-[#6D4C41] leading-relaxed pl-3 border-l border-[#D4A373]/30 text-sm font-medium">${t.text}</p></div>`).join('');
+        }
+
+        window.onload = initApp;
+    </script>
+</body>
+</html>
