@@ -235,6 +235,83 @@
       ]
     },
     {
+      "title": "卷、券",
+      "description": "",
+      "instructionPaper": {
+        "title": "辨識小秘訣",
+        "filePath": "卷券/國語不求人_混淆字_券卷1說明.pdf",
+        "testFilePath": "",
+        "txtFilePath": ""
+      },
+      "papers": [
+        {
+          "title": "小試身手",
+          "question": {
+            "id": "國語不求人_混淆字_券卷2小試身手_題目",
+            "path": "卷券/國語不求人_混淆字_券卷2小試身手_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "國語不求人_混淆字_券卷2小試身手_解答",
+            "path": "卷券/國語不求人_混淆字_券卷2小試身手_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "句子式",
+          "question": {
+            "id": "卷券/國語不求人_混淆字_券卷3句子式_題目",
+            "path": "卷券/國語不求人_混淆字_券卷3句子式_題目.pdf",
+            "locked": true
+          },
+          "answer": {
+            "id": "卷券/國語不求人_混淆字_券卷3句子式_解答",
+            "path": "卷券/國語不求人_混淆字_券卷3句子式_解答.pdf",
+            "locked": true
+          }
+        }
+      ]
+    },
+        {
+      "title": "候、後",
+      "description": "",
+      "instructionPaper": {
+        "title": "辨識小秘訣",
+        "filePath": "候後/國語不求人_混淆字_候後1說明.pdf",
+        "testFilePath": "",
+        "txtFilePath": ""
+      },
+      "papers": [
+        {
+          "title": "小試身手",
+          "question": {
+            "id": "國語不求人_混淆字_候後2小試身手_題目",
+            "path": "候後/國語不求人_混淆字_候後2小試身手_題目.pdf",
+            "locked": false
+          },
+          "answer": {
+            "id": "國語不求人_混淆字_候後2小試身手_解答",
+            "path": "候後/國語不求人_混淆字_候後2小試身手_解答.pdf",
+            "locked": false
+          }
+        },
+        {
+          "title": "句子式",
+          "question": {
+            "id": "候後/國語不求人_混淆字_候後3句子式_題目",
+            "path": "候後/國語不求人_混淆字_候後3句子式_題目.pdf",
+            "locked": true
+          },
+          "answer": {
+            "id": "候後/國語不求人_混淆字_候後3句子式_解答",
+            "path": "候後/國語不求人_混淆字_候後3句子式_解答.pdf",
+            "locked": true
+          }
+        }
+      ]
+    },
+    
+    {
       "title": "在、再",
       "description": "",
       "instructionPaper": {
